@@ -5,8 +5,8 @@ package Cars;
  */
 public class Car {
     String name;
-    private int  speed;
-    private int posX;
+    protected int  speed;
+    protected int posX;
     int chanceBreaking;
 
     public void setPosX(int posX) {
