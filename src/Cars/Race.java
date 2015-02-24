@@ -20,6 +20,7 @@ public class Race {
 
         for(int j=1;j<=laps;j++) {
             System.out.println("-----LAP"+j+"-----");
+			System.out.println("blablabla");
             for (int i = 0; i < racer.length; i++) {
 
                 racer[i].drive();
